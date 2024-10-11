@@ -19,7 +19,11 @@ public class Task1 {
         System.out.println("a + b = " + ( first_number + second_number ));
         System.out.println("a - b = " + ( first_number - second_number ));
         System.out.println("a * b = " + ( first_number * second_number ));
-        System.out.println("a / b = " + ( first_number / second_number ));
+        if (second_number != 0) {
+            System.out.println("a / b = " + (first_number / second_number));
+        } else {
+            System.out.println("На ноль делить нельзя :)");
+        }
 
     }
 }
